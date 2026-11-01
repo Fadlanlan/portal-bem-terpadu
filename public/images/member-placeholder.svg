@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none">
+    <defs>
+        <linearGradient id="avatar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f172a"/>
+            <stop offset="50%" stop-color="#1e293b"/>
+            <stop offset="100%" stop-color="#334155"/>
+        </linearGradient>
+        <linearGradient id="avatar-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#d97706"/>
+            <stop offset="50%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Canvas -->
+    <rect width="400" height="400" rx="40" fill="url(#avatar-bg)"/>
+    <rect width="396" height="396" x="2" y="2" rx="38" stroke="url(#avatar-gold)" stroke-width="2" stroke-opacity="0.3"/>
+
+    <!-- Subtle Geometric Rings -->
+    <circle cx="200" cy="170" r="120" stroke="#ffffff" stroke-opacity="0.04" stroke-width="2"/>
+    <circle cx="200" cy="170" r="90" stroke="#ffffff" stroke-opacity="0.06" stroke-width="2"/>
+
+    <!-- Head / Face Silhouette -->
+    <circle cx="200" cy="155" r="58" fill="#e2e8f0" fill-opacity="0.9"/>
+
+    <!-- Tie & Collar Accent -->
+    <path d="M190 205 L210 205 L205 245 L200 255 L195 245 Z" fill="url(#avatar-gold)"/>
+
+    <!-- Shoulders & Torso Silhouette -->
+    <path d="M110 330 C110 250, 150 215, 200 215 C250 215, 290 250, 290 330 Z" fill="#cbd5e1" fill-opacity="0.85"/>
+
+    <!-- Badge Tag at Bottom -->
+    <g transform="translate(200, 360)">
+        <rect x="-70" y="-12" width="140" height="24" rx="12" fill="#0f172a" stroke="url(#avatar-gold)" stroke-width="1.5"/>
+        <text x="0" y="4" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">PENGURUS BEM</text>
+    </g>
+</svg>
